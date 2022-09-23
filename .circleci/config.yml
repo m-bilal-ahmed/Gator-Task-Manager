@@ -8,8 +8,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies and build project
-          command: |
-            pip install
+          command: pip install
       - sonarcloud/scan
 
 orbs:
